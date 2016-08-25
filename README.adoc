@@ -1,0 +1,16 @@
+= PIT example
+
+:uri-project: https://github.com/smohr/pitdemo
+:uri-project-repo: {uri-project}
+
+:uri-pitest: http://pitest.org
+
+Simple project using {uri-pitest}[PIT] for mutation testing.
+
+== Build instructions
+
+.Build project and run all tests
+ $ mvn clean install
+
+.Build a site report
+ $ mvn -Penable-jacoco site
